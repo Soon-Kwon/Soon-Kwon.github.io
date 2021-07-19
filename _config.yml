@@ -52,10 +52,10 @@ plainwhite:
     # - username: jekyll2
     #   instance: example.com
     
-    # Comments
-    disqus_shortname: games
+  # Comments
+  disqus_shortname: games
 
-    paginate: 10
+  paginate: 10
     # Google Analytics
     #analytics_id: "<my id>"
 
