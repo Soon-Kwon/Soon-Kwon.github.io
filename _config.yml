@@ -19,7 +19,7 @@ plainwhite:
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/me.jpg" # the path from the base directory of the site to the image to display (no / at the start)
-  html_lang: "kr" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
+  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   condensed_mobile:
     #- home
     - page
@@ -36,7 +36,7 @@ plainwhite:
     #linkedIn: in/samarsault
     #dribbble: jekyll
     #flickr:   jekyll
-    instagram: soon__yy
+    #instagram: soon__yy
     #pinterest: jekyll
     #youtube: jekyll
     #facebook: jekyll
@@ -53,11 +53,12 @@ plainwhite:
     #   instance: example.com
     
   # Comments
-  disqus_shortname: games
+  #disqus_shortname: games
 
-  paginate: 10
-    # Google Analytics
-    #analytics_id: "<my id>"
+  #paginate: 10
+  
+  # Google Analytics
+  #analytics_id: "<my id>"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -65,8 +66,8 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
-remote_theme: samarsault/plainwhite-jekyll
+#theme: plainwhite
+#remote_theme: samarsault/plainwhite-jekyll
 
 plugins:
   - jekyll-seo-tag
